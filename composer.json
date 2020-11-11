@@ -27,7 +27,7 @@
             "Pixxet\\Notify\\": "src/"
         },
         "files": [
-            "src/Pixxet/Notify/functions.php"
+            "src/Notify/functions.php"
         ]
     },
     "minimum-stability": "stable"
