@@ -1,6 +1,6 @@
 <?php
 
-namespace Codecourse\Notify\Storage;
+namespace Pixxet\Notify\Storage;
 
 use Illuminate\Session\Store;
 

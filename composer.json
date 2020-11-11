@@ -1,11 +1,21 @@
 {
-    "name": "codecourse/notify",
+    "name": "pixxet/notify",
     "description": "Flexible flash notifications for Laravel",
     "license": "MIT",
+    "archive": {
+        "name": "codecourse/notify",
+        "authors": [
+            {
+                "name": "Alex Garrett",
+                "email": "alex@codecourse.com"
+            }
+        ]
+    },
+    "readme": "./readme.md",
     "authors": [
         {
-            "name": "Alex Garrett",
-            "email": "alex@codecourse.com"
+            "name": "Omar Sharkeyeh",
+            "email": "omar@pixxet.com"
         }
     ],
     "require": {
@@ -14,10 +24,10 @@
     },
     "autoload": {
         "psr-0": {
-            "Codecourse\\Notify\\": "src/"
+            "Pixxet\\Notify\\": "src/"
         },
         "files": [
-            "src/Codecourse/Notify/functions.php"
+            "src/Pixxet/Notify/functions.php"
         ]
     },
     "minimum-stability": "stable"

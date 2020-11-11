@@ -1,6 +1,6 @@
 <?php
 
-namespace Codecourse\Notify\Facades;
+namespace Pixxet\Notify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

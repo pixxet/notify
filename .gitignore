@@ -1,0 +1,6 @@
+.idea
+.vscode
+/vendor/composer
+vendor
+.history
+composer.lock

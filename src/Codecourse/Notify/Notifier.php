@@ -1,15 +1,15 @@
 <?php
 
-namespace Codecourse\Notify;
+namespace Pixxet\Notify;
 
-use Codecourse\Notify\Storage\Session;
+use Pixxet\Notify\Storage\Session;
 
 class Notifier
 {
     /**
      * Session storage.
      *
-     * @var Codecourse\Storage\Session
+     * @var Pixxet\Storage\Session
      */
     protected $session;
 

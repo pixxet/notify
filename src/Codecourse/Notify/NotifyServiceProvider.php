@@ -1,6 +1,6 @@
 <?php
 
-namespace Codecourse\Notify;
+namespace Pixxet\Notify;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class NotifyServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('notify', function ($app) {
-            return $this->app->make('Codecourse\Notify\Notifier');
+            return $this->app->make('Pixxet\Notify\Notifier');
         });
     }
 }

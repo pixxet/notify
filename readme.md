@@ -1,23 +1,23 @@
-![Notify](https://s3.amazonaws.com/s3.codecourse.com/github/banners/notify.png)
+![Notify](./assets/notify.png)
 
 ## Install
 
 Using Composer
 
 ```
-composer require codecourse/notify
+composer require pixxet/notify
 ```
 
 Add the service provider to `config/app.php`
 
 ```php
-Codecourse\Notify\NotifyServiceProvider::class,
+Pixxet\Notify\NotifyServiceProvider::class,
 ```
 
 Optionally include the Facade in `config/app.php` if you'd like.
 
 ```php
-'Notify' => Codecourse\Notify\Facades\Notify::class,
+'Notify' => Pixxet\Notify\Facades\Notify::class,
 ```
 
 > Note, there is a notify() function available, so unless you really want to use the Facade, there's no need to include it.
@@ -72,7 +72,7 @@ Then, in your view.
 @endif
 ```
 
-![SweetAlert example](https://s3.amazonaws.com/s3.codecourse.com/github/notify/swal-example.png)
+![SweetAlert example](https://s3.amazonaws.com/s3.pixxet.com/github/notify/swal-example.png)
 
 > The above example uses SweetAlert, but the flexibily of Notify means you can easily use it with any JavaScript alert solution.
 
