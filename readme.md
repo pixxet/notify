@@ -72,7 +72,7 @@ Then, in your view.
 @endif
 ```
 
-![SweetAlert example](https://s3.amazonaws.com/s3.pixxet.com/github/notify/swal-example.png)
+![SweetAlert example](./assets/swal-example.png)
 
 > The above example uses SweetAlert, but the flexibily of Notify means you can easily use it with any JavaScript alert solution.
 
